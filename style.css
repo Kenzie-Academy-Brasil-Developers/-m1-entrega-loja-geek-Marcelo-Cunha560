@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho .menuHeader {
+    width: 100%;
+}
+
+#itensMenu{
+    display: flex;
+}
+
+.products{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+li{
+    margin: 20px;
+}
