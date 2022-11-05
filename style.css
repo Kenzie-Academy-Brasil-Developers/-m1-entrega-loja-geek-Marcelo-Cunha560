@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 .container{
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow-x: auto;
+    text-align: center;
 }
 
 .cabecalho .menuHeader {
@@ -17,10 +20,22 @@
 
 .products{
     display: flex;
-    align-items: flex-end;
-    justify-content: end;
+    justify-content: center;    
+    object-fit: cover;
 }
 
 li{
     margin: 20px;
+    height: 275;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+section div ul li a img{
+    height: 75%;
+    width: 207px;
+
 }
