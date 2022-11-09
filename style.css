@@ -8,34 +8,47 @@
     justify-content: space-between;
     overflow-x: auto;
     text-align: center;
+   
 }
 
 .cabecalho .menuHeader {
     width: 100%;
+    
 }
 
 #itensMenu{
     display: flex;
+    margin: 20px;
+    
 }
 
 .products{
     display: flex;
-    justify-content: center;    
-    object-fit: cover;
+    justify-content: center;
+    
 }
 
 li{
     margin: 20px;
+}
+
+section div ul li{
+    margin: 20px;
     height: 275;
+    background-color: #868383;
+    border-radius: 20px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
+    color: #1B1B1B;
 }
 
 section div ul li a img{
     height: 75%;
     width: 207px;
+    object-fit: cover;
+    border-radius: 20px;
 
 }
