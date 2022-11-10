@@ -54,6 +54,21 @@ function separateItens(list) {
 }
 
 separateItens(figurasProdutos)
-
 console.log(figure)
 console.log(figureActions)
+
+let secaolistPaitings = document.getElementsByClassName('secaoPaitings')
+
+for(let i = 0; i < figure.length; i++){
+    let liLista = document.createElement('li')
+    let paragrafo = document.createElement('p')
+    paragrafo.innerText = `${listPerson[i].paragrafo}`
+    liLista.appendChild(paragrafo)
+    secaolistFigure.appendChild(liLista)
+
+    
+}
+
+
+
+console.log(secaolistPaitings)
