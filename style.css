@@ -2,7 +2,7 @@
 
 
 .container{
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,16 +62,15 @@ section div ul li a img{
 }
 
 .button {
-    border: #000000;
-    text-decoration: none;
-    border: solid 2px white;
+    background-color: #0A99FE;
+    border: solid 1px #0A99FE;
     border-radius: 10px;
-    font-size: 16px;
+    padding: 10px 20px;
 }
 
 
-button:hover {
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
+.button:hover {
+    opacity: 80%;
+    color: white;
     cursor: pointer;
 }

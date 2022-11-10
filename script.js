@@ -91,7 +91,6 @@ function separateItens(list) {
 separateItens(figurasProdutos)
 
 let secaolistPaitings = document.querySelector('.products')
-console.log(secaolistPaitings)
 for(let i = 0; i < figure.length; i++){
     let liLista = document.createElement('li')
     let ancora = document.createElement('a')
@@ -100,10 +99,8 @@ for(let i = 0; i < figure.length; i++){
     let valor = document.createElement('p')
 
     secaolistPaitings.appendChild(liLista)
-    liLista.appendChild(ancora)
+    liLista.append(ancora,paragrafo,valor)
     ancora.appendChild(imageFigurePaitings)
-    liLista.appendChild(paragrafo)
-    liLista.appendChild(valor)
 
 
     imageFigurePaitings.src = figure[i].imagem
