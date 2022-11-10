@@ -88,11 +88,7 @@ function separateItens(list) {
     }
     
 }
-
-
 separateItens(figurasProdutos)
-console.log(figure)
-console.log(figureActions)
 
 let secaolistPaitings = document.querySelector('.products')
 console.log(secaolistPaitings)
@@ -132,8 +128,3 @@ for(let i = 0; i < figure.length; i++){
     paragrafo.innerText = figureActions[i].nome
     valor.innerText = figurasProdutos[i].valor
 }
-console.log(secaolistPaitings)
-console.log(secaolistActions)
-
-console.log(figure)
-console.log(figureActions)

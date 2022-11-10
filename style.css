@@ -60,3 +60,18 @@ section div ul li a img{
     border-radius: 20px;
 
 }
+
+.button {
+    border: #000000;
+    text-decoration: none;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+button:hover {
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+}
