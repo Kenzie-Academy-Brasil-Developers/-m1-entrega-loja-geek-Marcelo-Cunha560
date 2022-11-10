@@ -28,6 +28,14 @@
     
 }
 
+.products-2{
+    
+    display: flex;
+    justify-content: center;
+    
+        
+}
+
 li{
     margin: 20px;
 }
