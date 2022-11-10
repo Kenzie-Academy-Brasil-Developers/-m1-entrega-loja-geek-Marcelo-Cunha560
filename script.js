@@ -57,16 +57,25 @@ separateItens(figurasProdutos)
 console.log(figure)
 console.log(figureActions)
 
-let secaolistPaitings = document.getElementsByClassName('secaoPaitings')
-
+let secaolistPaitings = document.querySelector('.products')
 for(let i = 0; i < figure.length; i++){
     let liLista = document.createElement('li')
+    let ancora = document.createElement('a')
+    let imageFigurePaitings = document.createElement('img')
+    // let imageFigureActions = document.createElement('img')
     let paragrafo = document.createElement('p')
-    paragrafo.innerText = `${listPerson[i].paragrafo}`
+    let valor = document.createElement('p')
+    secaolistPaitings.appendChild(liLista)
+    liLista.appendChild(ancora)
+    ancora.appendChild(imageFigurePaitings)
     liLista.appendChild(paragrafo)
-    secaolistFigure.appendChild(liLista)
+    liLista.appendChild(valor)
 
-    
+
+    imageFigurePaitings.src = figurasProdutos[i].imagem
+    paragrafo.innerText = `${figurasProdutos[i].valor}`
+    // liLista.appendChild(paragrafo)
+    // secaolistFigure.appendChild(liLista)
 }
 
 
